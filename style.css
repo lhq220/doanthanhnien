@@ -323,12 +323,18 @@ body {
 
 .menu .menu-top > li > a {
     display: block; 
-    padding: 15px 6px; 
+    padding: 15px 20px;
     font-size: 13px;
     color: #dde4f3;
     text-decoration: none;  
     text-transform:uppercase;
     font-weight:500;
+}
+.menu .menu-top > li > i{
+    position: absolute;
+    top: 16px;
+    right: 0;
+    color: #fff;
 }
 
 .menu .menu-top > li > a:hover
