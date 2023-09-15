@@ -727,21 +727,7 @@ body {
     /*position: absolute;*/
     z-index: 9999;
 }
-.category-news h2.subtitle a {
-    /*font-family: 'Roboto', sans-serif;*/
-    font-weight: 400 !important;
-    font-size: 15px !important;
-    min-width: 320px;
-    text-transform: uppercase;
-    color: #fff !important;
-    background-color: #41a2eb;
-    padding: 9px 10px;
-    border-radius: 0!important;
-    margin-left: -4px;
-}
-.category-news h2.subtitle a:hover{
-    text-decoration:none;
-}
+
  
 .category-news .category-news-img {
     position: relative;
