@@ -447,7 +447,8 @@ body {
 }
 
 .main-slider .carousel-caption {
-color: #333;
+    color: #fff;
+    text-align: left;
     text-shadow: none;
     position: absolute;
     width: 100%;
