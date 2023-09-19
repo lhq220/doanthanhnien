@@ -604,9 +604,7 @@ body {
     -webkit-box-orient: vertical;
     margin-top: 5px;
 }
-.hot-news-list ul li:hover a, #myCarousel .carousel-inner .carousel-caption a:hover {
-    color: #ce0909;
-}
+
 .bg-white{
     background-color:#fff!important;
 }
