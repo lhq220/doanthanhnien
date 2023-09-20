@@ -162,7 +162,14 @@ body {
     max-height: initial!important;
 }
 .menu {
-    background-color: #0058c0;
+       background: rgba(0,69,137,1) !important;
+    background: -moz-linear-gradient(left, rgba(0,69,137,1) 0%, rgba(0,69,137,1) 21%, rgba(26,160,200,1) 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,69,137,1)), color-stop(21%, rgba(0,69,137,1)), color-stop(100%, rgba(26,160,200,1))) !important;
+    background: -webkit-linear-gradient(left, rgba(0,69,137,1) 0%, rgba(0,69,137,1) 21%, rgba(26,160,200,1) 100%) !important;
+    background: -o-linear-gradient(left, rgba(0,69,137,1) 0%, rgba(0,69,137,1) 21%, rgba(26,160,200,1) 100%) !important;
+    background: -ms-linear-gradient(left, rgba(0,69,137,1) 0%, rgba(0,69,137,1) 21%, rgba(26,160,200,1) 100%) !important;
+    background: linear-gradient(to right, rgba(0,69,137,1) 0%, rgba(0,69,137,1) 21%, rgba(26,160,200,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004589', endColorstr='#1aa0c8', GradientType=1 ) !important;
 }
 .img-advertise-right{
     position: fixed;
